@@ -15,5 +15,6 @@ $btn-border-radius:$border-radius * 1 !default;
 @import "node_modules/bootstrap/scss/alert";
 @import "node_modules/bootstrap/scss/buttons";
 @import "node_modules/bootstrap/scss/modal";
-html{font-size: 12px;}
-.heading{background: orange;}
+@import "node_modules/bootstrap/scss/navbar";
+@import "node_modules/bootstrap/scss/nav";
+

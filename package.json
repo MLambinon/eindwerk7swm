@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-demo",
+  "name": "eindwerk",
   "version": "1.0.0",
   "description": "demo",
   "main": "index.js",
@@ -18,5 +18,9 @@
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm install bootstrap --save"
   }
 }
