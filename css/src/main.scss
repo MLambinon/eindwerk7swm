@@ -1,0 +1,19 @@
+//verplichte imports
+@import "node_modules/bootstrap/scss/functions";
+$btn-border-width: 12px !default;
+.heading{background: orange;}
+$btn-focus-box-shadow:6px!default;
+$border-radius: 2.5rem !default;
+$btn-border-radius:$border-radius * 1 !default;
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+//optionele imports
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/alert";
+@import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/modal";
+html{font-size: 12px;}
+.heading{background: orange;}
