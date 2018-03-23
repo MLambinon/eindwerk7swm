@@ -18,4 +18,28 @@ $btn-border-radius:$border-radius * 1 !default;
 @import "node_modules/bootstrap/scss/modal";
 @import "node_modules/bootstrap/scss/navbar";
 @import "node_modules/bootstrap/scss/nav";
-
+a{
+    color: #307e41;
+}
+h3 a{
+    color: #fffff9;
+}
+.btn-outline-success {
+    color: #fffff9;
+    border-color: #fffff9;
+}
+.h5, h5 {
+    color: lightgreen;
+}
+a:-webkit-any-link {
+    color: #fffff9;
+}
+.apple_rush {
+    background-color: #b7d7a0;
+}
+.hyper_honey{
+    background-color: #f2ec8a;
+}
+.explosive_pomegrenade{
+    background-color: #e84445;
+}
