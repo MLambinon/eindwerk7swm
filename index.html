@@ -8,13 +8,13 @@
     <title>Home</title>
 </head>
 <body>
+    <div id="wrapper">
      <header>
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Navbar</a>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <img src="images/Mini_Logo.svg" alt="Logo" height="50px" width="50px">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                  
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
@@ -24,7 +24,7 @@
                           <a class="nav-link" href="#">Producten</a>
                         </li>
                         <li class="nav-item dropdown">
-                          
+                          </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">Contact</a>
                         </li>
@@ -36,17 +36,43 @@
                     </div>
                   </nav>
             </header>
-    <div id="wrapper">
-        
-        <div><p>Slogan</p></div>
-        <div>Video</div>
+    
+        <div><p>The power of Nature</p></div>
         <div>
-            <div></div>
-            <div></div>
-            <div></div>
+          <video></video>
         </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md apple_rush">
+              <h4><p>Apple Rush</p></h4>
+              <a href="DetailpaginaAppel.html">Meer info</a>
+            </div>
+            <div class="col-md hyper_honey">
+              <h4><p>Hyper Honey</p></h4>
+              <a href="DetailpaginaHoning.html">Meer info</a>
+            </div>
+            <div class="col-md explosive_pomegrenade">
+              <h4><p>Explosive Pomegrenade</p></h4>
+              <a href="DetailpaginaGranaatappel.html">Meer info</a>
+            </div>
+          </div> 
+        </div>
+        <a href="Bestel.html">Bestel nu</a>
         <div></div>
-        <div></div>
+        <div>
+          <div>
+            <h3>Contacteer ons</h3>
+            <form action="index.html" method="POST">
+              <label for="name">Naam</label><br>
+              <input type="text" name="name"><br>
+              <label for="mail">Mail</label><br>
+              <input type="email" name="mail"><br>
+              <label for="message">Bericht</label><br>
+              <textarea name="message" cols="30" rows="10"></textarea><br>
+              <input type="submit" name="versturen" value="versturen">
+            </form>
+          </div>
+        </div>
         <div></div>
     </div>
 
