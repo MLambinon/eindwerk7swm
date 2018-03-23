@@ -8,7 +8,6 @@
     <title>Home</title>
 </head>
 <body>
-  <div id="wrapper">
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <img src="images/Mini_Logo.svg" alt="Logo" height="60px" width="60px">
@@ -34,28 +33,33 @@
         </div>
       </nav>
     </header>
-    <div><p>The power of Nature</p></div>
-      <div>
-        <video></video>
+    <div id="wrapper">
+    <a name="producten"></a>
+    <div><h1><p class="text-center">THE POWER OF NATURE</p></h1></div>
+      <div class="row align-items-center justify-content-center">
+        <video controls center width="90%" height="600px"src="images/promofilm_eindwerk.mp4"></video>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-md apple_rush">
             <h4><p>Apple Rush</p></h4>
+            <p>Hier komt tekst</p>
             <a href="DetailpaginaAppel.html">Meer info</a>
           </div>
           <div class="col-md hyper_honey">
             <h4><p>Hyper Honey</p></h4>
+            <p>Hier komt tekst</p>
             <a href="DetailpaginaHoning.html">Meer info</a>
           </div>
           <div class="col-md explosive_pomegrenade">
             <h4><p>Explosive Pomegrenade</p></h4>
+            <p>Hier komt tekst</p>
             <a href="DetailpaginaGranaatappel.html">Meer info</a>
           </div>
         </div> 
       </div>
       <a href="Bestel.html">Bestel nu</a>
-      <div></div>
+      <a name="contact"></a>
       <div>
         <div>
           <h3>Contacteer ons</h3>
@@ -69,24 +73,25 @@
             <input type="submit" name="versturen" value="versturen">
           </form>
         </div>
-      </div>  
-    <footer>
+      </div>
+    </div>  
+    <footer class="page-footer font-small stylish-color-dark bg-dark pt-4 mt-4">
       <div class="container footer">
         <div class="row">
           <div class="col-md">
           <h5>Navigatie</h5><br>
-          <a href="">Producten</a><br>
-          <a href="">Contact</a>
+          <a href="#producten">Producten</a><br>
+          <a href="#contact">Contact</a>
           </div>
-        <div class="col-md">
-          <img src="" alt="icoon_mail">Lambinonm@visocloud.org<br>
-          <img src="" alt="icoon_facebook">
-          <img src="" alt="icoon_instagram">
-          <img src="" alt="icoon_twitter">
+          <div class="col col-lg-3">
+            <img src="images/Mail.svg" alt="icoon_mail" height="45px" width="45px">Lambinonm@visocloud.org<br>
+            <img src="images/Facebook.svg" alt="icoon_facebook" height="45px" width="45px">
+            <img src="images/Instagram.svg" alt="icoon_instagram" height="45px" width="45px">
+            <img src="images/Twitter.svg" alt="icoon_twitter" height="45px" width="45px">
+          </div>
         </div>
       </div>
-      </div>
     </footer>
-  </div>
+  <script src="js/dist/main.js/main.js"></script>
 </body>
 </html>
